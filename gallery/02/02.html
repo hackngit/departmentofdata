@@ -19,15 +19,16 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">  
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
-
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/skeleton.css">  
+  <link rel="stylesheet" href="../../fonts/font-awesome/css/font-awesome.min.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- processing js -->
+  <script src="processing.min.js"></script>
+
 
 </head>
 <body>
@@ -38,45 +39,21 @@
   <div class="container">
     <div class="twelve columns">
       <!-- Standard buttons -->
-      <a class="button" href="index.html">home</a>
+      <a class="button" href="../../index.html">home</a>
       <a class="button" href="#">the research</a>
-      <a class="button" href="gallery.html">art + data</a>
+      <a class="button" href="../../gallery.html">art + data</a>
       <a class="button" href="#">about</a>
+
     </div>
   </div>
 </header>
-
-<!-- Sketch Launcher -->
-<section class="services">
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-      <a href="gallery/01/01.html">
-        <h4>Smoking Ribbon</h4>
-        <span class="fa fa-picture-o"></span>
-        <p>some stuff in here</p>
-      </a>
-    </div>
-    <div class="one-half column">
-      <a href="gallery/02/02.html">
-        <h4>name of sketch 2 here</h4>
-        <span class="fa fa-leaf"></span>
-        <p>github links and stuff in here</p>
-      </a>
-    </div>
-  </div>
-</section>
-<!--end of sketch launcher-->
-
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
-        <h5>Attribution</h5>
-        <p>All source code for this work is attributed to Matt Paarson: <a href="http://www.abandonedart.org" target="blank">Abandoned Art</a><a href="http://www.zenbullets.com" target="blank">Zen Bullets</a></p>
-        <p>Please buy Matt's book on Generative Art, published by Manning <a href="https://www.manning.com/books/generative-art" target="blank">Generative Art</a></p>
+        <canvas data-processing-sources="896cubes/896cubes.pde"></canvas>
       </div>
     </div>
   </div>
