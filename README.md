@@ -1,3 +1,2 @@
 # The Department of Data
-Repo for MResRCA Research Question
-Based on the Skeleton theme
+Repo based on the Skeleton theme
